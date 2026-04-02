@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+django-filter = "*"
+psycopg2-binary = "*"
+djangorestframework-simplejwt = {extras = ["blacklist"], version = "*"}
+pytest = "*"
+djangorestframework = "*"
+pytest-django = "*"
+django-cors-headers = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.14"

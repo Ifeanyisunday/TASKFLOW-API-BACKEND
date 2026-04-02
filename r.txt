@@ -1,0 +1,32 @@
+task_manager/
+├── config/
+│   ├── settings/
+│   │   ├── base.py
+│   │   ├── dev.py
+│   │   └── prod.py
+│   ├── urls.py
+│   └── asgi.py
+│
+├── apps/
+│   ├── users/
+│   │   ├── models.py
+│   │   ├── serializers.py
+│   │   ├── views.py
+│   │   ├── urls.py
+│   │   └── services.py
+│   │
+│   └── tasks/
+│       ├── models.py
+│       ├── serializers.py
+│       ├── views.py
+│       ├── filters.py
+│       ├── permissions.py
+│       └── urls.py
+│
+├── common/
+│   ├── permissions.py
+│   ├── pagination.py
+│   └── utils.py
+│
+├── manage.py
+└── requirements.txt
