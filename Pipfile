@@ -12,6 +12,7 @@ pytest = "*"
 djangorestframework = "*"
 pytest-django = "*"
 django-cors-headers = "*"
+python-dotenv = "*"
 
 [dev-packages]
 
